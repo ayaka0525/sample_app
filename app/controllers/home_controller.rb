@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
     def index
-        render 'home/index'
+        @tiltle = 'デイトラ'
+    end
+    def about
     end
 end
